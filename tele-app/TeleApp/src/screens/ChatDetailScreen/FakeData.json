@@ -1,0 +1,78 @@
+[
+  {
+    "userId": 1,
+    "userName": "user1",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "time": "11:35",
+    "seen": "true"
+  },
+  {
+    "userId": 2,
+    "userName": "user2",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "time": "12:45",
+    "seen": "false"
+  },
+  {
+    "userId": 1,
+    "userName": "user2",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "time": "12:45",
+    "seen": "false"
+  },{
+  "userId": 1,
+  "userName": "user2",
+  "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+  "time": "12:45",
+  "seen": "false"
+},
+  {
+    "userId": 1,
+    "userName": "user2",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "time": "12:45",
+    "seen": "false"
+  },
+  {
+    "userId": 1,
+    "userName": "user2",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "time": "12:45",
+    "seen": "false"
+  },
+  {
+    "userId": 1,
+    "userName": "user2",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "time": "12:45",
+    "seen": "false"
+  },
+  {
+    "userId": 1,
+    "userName": "user2",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "time": "12:45",
+    "seen": "false"
+  },
+  {
+    "userId": 1,
+    "userName": "user2",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "time": "12:45",
+    "seen": "false"
+  },
+  {
+    "userId": 1,
+    "userName": "user2",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "time": "12:45",
+    "seen": "false"
+  },
+  {
+    "userId": 1,
+    "userName": "user2",
+    "message": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "time": "12:45",
+    "seen": "false"
+  }
+]

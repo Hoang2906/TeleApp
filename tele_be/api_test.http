@@ -1,0 +1,24 @@
+POST {{base_url}}/api/login
+Content-Type: application/json
+
+{
+  "phone_number": "0772272536",
+  "password": "12345678"
+}
+
+###
+POST {{base_url}}/api/signup
+Content-Type: application/json
+
+{
+  "phone_number": "0772272537",
+  "password": "12345678",
+  "full_name": "Chavis Nguyen",
+  "avatar": "https://images.unsplash.com/photo-1602779717364-d044d7492ed7?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNzk5OTkzM3x8ZW58MHx8fHx8"
+}
+
+###
+GET {{base_url}}/api/users/profile
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTY5ODQzODA3NiwiZXhwIjoxNjk4NTI0NDc2fQ.Yxgkx7fVDft2JFAq3nYUzImuQcKbmXgbr-vKAQ_6TmI
+

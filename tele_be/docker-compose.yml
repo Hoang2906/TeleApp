@@ -1,0 +1,46 @@
+version: '4.10'
+services:
+  telebe_mysql:
+    image: mysql:8.0
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./init.sql:/data/application/init.sql
+    restart: always
+    command: --init-file /data/application/init.sql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=tele_db
+    ports:
+      - "3306:3306"
+  telebe:
+    image: node:16.3.0
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - .:/home/node/app
+      - /home/node/app/node_modules
+    expose:
+      - "8081"
+    command: bash -c "npm install && npm start"
+    depends_on:
+      - telebe_mysql
+    ports:
+      - "4968:4968"
+  telebe_phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    links:
+      - telebe_mysql
+    environment:
+      PMA_HOST: telebe_mysql
+      PMA_PASSWORD: root
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    ports:
+      - "4000:80"
+
+
+#Volumes
+volumes:
+  db_data:

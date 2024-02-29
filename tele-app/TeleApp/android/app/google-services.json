@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "125398369345",
+    "project_id": "tele-app-2f002",
+    "storage_bucket": "tele-app-2f002.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125398369345:android:de99e812654e76444df2c0",
+        "android_client_info": {
+          "package_name": "com.teleapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbD-hYAtgMpbeeUKEhYdMgBn_xLEGPzbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
